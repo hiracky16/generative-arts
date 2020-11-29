@@ -1,5 +1,5 @@
 # generative-art
 
-p5.js の勉強用です。
+This repository of works created by practicing generative art.
 
-[github page](https://hiracky16.github.io/generative-arts/)
+[Works](https://hiracky16.github.io/generative-arts/)
