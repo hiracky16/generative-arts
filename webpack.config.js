@@ -25,6 +25,7 @@ module.exports = {
   entry: {
     euclid: './src/euclid/euclid-algorithm.js',
     circleDrawer: './src/circleDrawer/index.js',
+    tanjiro: './src/tanjiro/index.js',
     style: './src/index.js',
   },
   output: {
@@ -57,6 +58,12 @@ module.exports = {
       chunks: ['circleDrawer', 'style'],
       filename: 'circleDrawer.html',
       template: './src/circleDrawer/template.html'
+    }),
+    new HtmlWebpackPlugin({
+      inject: 'head',
+      chunks: ['tanjiro', 'style'],
+      filename: 'tanjiro.html',
+      template: './src/tanjiro/template.html'
     }),
   ]
 }
