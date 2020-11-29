@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Start Generative Art with p5.js, webpack and es6",
   "scripts": {
-    "start": "webpack && webpack-dev-server --watch --inline --content-base dist",
+    "start": "webpack && webpack-dev-server --watch --inline --content-base docs",
     "build": "webpack"
   },
   "keywords": [

@@ -29,13 +29,13 @@ module.exports = {
     style: './src/index.js',
   },
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'docs'),
     filename: '[name].bundle.js'
   },
   devServer: {
     inline: true,
     port: 8888,
-    contentBase: path.join(__dirname, 'dist')
+    contentBase: path.join(__dirname, 'docs')
   },
   plugins: [
     new MiniCssExtractPlugin({
